@@ -69,7 +69,7 @@ public class Login extends JFrame {
         btn1.setFocusPainted(false);
         add(btn1);
 
-        // --- Cancel Button ---
+        // --- Cancel Button --- 
         btn2 = new JButton("Cancel");
         btn2.setBounds(230, 170, 150, 40);
         btn2.setFont(new Font("SansSerif", Font.BOLD, 16));
