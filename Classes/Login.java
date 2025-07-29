@@ -78,7 +78,7 @@ public class Login extends JFrame {
         btn2.setFocusPainted(false);
         add(btn2);
 
-        // --- Frame Settings ---
+        // --- Frame Settings --- 
         setSize(650, 280);
         setLocationRelativeTo(null);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); 
