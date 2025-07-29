@@ -50,7 +50,7 @@ public class Login extends JFrame {
         passwordField.setBounds(180, 110, 200, 30);
         passwordField.setFont(new Font("SansSerif", Font.PLAIN, 16));
         passwordField.setForeground(Color.BLACK);
-        passwordField.setBackground(Color.WHITE);
+        passwordField.setBackground(Color.WHITE); 
         add(passwordField);
 
         // --- Logo Image ---
