@@ -116,6 +116,6 @@ public class SearchRoom extends JFrame {
         setVisible(true);
     }
     public static void main(String[] args) {
-        new SearchRoom();
+        new SearchRoom(); 
     }
 }
