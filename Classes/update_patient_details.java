@@ -146,7 +146,7 @@ public class update_patient_details extends JFrame {
         });
 
         JButton back = new JButton("BACK");
-        back.setBounds(168, 378, 89, 23);
+        back.setBounds(168, 378, 89, 23); 
         back.setBackground(Color.black);
         back.setForeground(Color.white);
         panel.add(back);
