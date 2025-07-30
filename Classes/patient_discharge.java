@@ -139,7 +139,7 @@ public class patient_discharge extends JFrame {
         });
 
 
-        setUndecorated(true);
+        setUndecorated(true); 
         setSize(800,400);
         setLayout(null);
         setLocation(400,250);
