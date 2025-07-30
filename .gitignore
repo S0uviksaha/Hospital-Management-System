@@ -1,0 +1,17 @@
+# .gitignore
+
+# Java class files
+*.class
+
+# VSCode settings
+.vscode/
+
+# Bin folders
+bin/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
