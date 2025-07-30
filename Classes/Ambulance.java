@@ -73,7 +73,7 @@ public class Ambulance extends JFrame{
         setUndecorated(true);
         setSize(900,600);
         setLayout(null);
-        setLocation(300,200);
+        setLocation(300,200); 
         setVisible(true);
     }
     public static void main(String[] args) {
