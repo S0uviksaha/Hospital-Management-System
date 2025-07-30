@@ -49,28 +49,33 @@ public class Login extends JFrame implements ActionListener {
         imageLabel.setBounds(420, 60, 150, 150);
         add(imageLabel);
 
-        // --- Login Button ---
         btnLogin = new JButton("Login");
-        btnLogin.setBounds(60, 170, 150, 40);
-        btnLogin.setFont(new Font("SansSerif", Font.BOLD, 16));
+        btnLogin.setBounds(60, 170, 100, 40);
+        btnLogin.setFont(new Font("SansSerif", Font.BOLD, 14));
+        btnLogin.setBackground(new Color(0, 150, 136));
         btnLogin.setForeground(Color.WHITE);
-        btnLogin.setBackground(new Color(0, 150, 136)); // Dark Teal
-        btnLogin.setFocusPainted(false);
+        btnLogin.addActionListener(this);
         add(btnLogin);
 
-        // --- Cancel Button ---
         btnCancel = new JButton("Cancel");
-        btnCancel.setBounds(230, 170, 150, 40);
-        btnCancel.setFont(new Font("SansSerif", Font.BOLD, 16));
+        btnCancel.setBounds(180, 170, 100, 40);
+        btnCancel.setFont(new Font("SansSerif", Font.BOLD, 14));
+        btnCancel.setBackground(new Color(220, 53, 69));
         btnCancel.setForeground(Color.WHITE);
-        btnCancel.setBackground(new Color(220, 53, 69)); // Soft Red
-        btnCancel.setFocusPainted(false);
+        btnCancel.addActionListener(this);
         add(btnCancel);
 
-        // --- Frame Settings ---
+        btnSignup = new JButton("Sign Up");
+        btnSignup.setBounds(300, 170, 100, 40);
+        btnSignup.setFont(new Font("SansSerif", Font.BOLD, 14));
+        btnSignup.setBackground(new Color(70, 130, 180));
+        btnSignup.setForeground(Color.WHITE);
+        btnSignup.addActionListener(this);
+        add(btnSignup);
+
         setSize(650, 280);
         setLocationRelativeTo(null);
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); 
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setVisible(true);
     }
 
